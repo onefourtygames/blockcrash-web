@@ -9,9 +9,20 @@ const resources = {
             "about": "About Us",
             "privacy": "Privacy Policy",
             "terms": "Terms of Use",
+            "contact": "Contact",
             "welcome": "Creating the next generation of games.",
             "first_game": "Our First Game",
-            "rights": "All rights reserved."
+            "rights": "All rights reserved.",
+            "form": {
+                "name": "Name",
+                "email": "Email",
+                "message": "Message",
+                "send": "Send Message",
+                "sending": "Sending...",
+                "success": "Message sent successfully!",
+                "error": "Failed to send message.",
+                "demo": "(Demo: This triggers your mail client. For usage without mail client, configure Formspree.)"
+            }
         }
     },
     es: {
@@ -20,9 +31,19 @@ const resources = {
             "about": "Sobre Nosotros",
             "privacy": "Política de Privacidad",
             "terms": "Términos de Uso",
+            "contact": "Contacto",
             "welcome": "Creando la próxima generación de videojuegos.",
             "first_game": "Nuestro Primer Juego",
-            "rights": "Todos los derechos reservados."
+            "rights": "Todos los derechos reservados.",
+            "form": {
+                "name": "Nombre",
+                "email": "Correo Electrónico",
+                "message": "Mensaje",
+                "send": "Enviar Mensaje",
+                "sending": "Enviando...",
+                "success": "¡Mensaje enviado con éxito!",
+                "error": "Error al enviar el mensaje."
+            }
         }
     }
 };

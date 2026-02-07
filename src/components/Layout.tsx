@@ -36,6 +36,7 @@ const Layout: React.FC = () => {
                             <div className="ml-10 flex items-baseline space-x-8">
                                 <Link to="/" className="nav-link px-3 py-2 rounded-md font-medium">{t('home')}</Link>
                                 <Link to="/about" className="nav-link px-3 py-2 rounded-md font-medium">{t('about')}</Link>
+                                <Link to="/contact" className="nav-link px-3 py-2 rounded-md font-medium">{t('contact')}</Link>
                                 <button onClick={toggleLanguage} className="flex items-center gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
                                     <Globe size={18} />
                                     <span>{i18n.language.toUpperCase()}</span>
@@ -62,6 +63,7 @@ const Layout: React.FC = () => {
                         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
                             <Link to="/" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium" onClick={() => setIsMenuOpen(false)}>{t('home')}</Link>
                             <Link to="/about" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium" onClick={() => setIsMenuOpen(false)}>{t('about')}</Link>
+                            <Link to="/contact" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium" onClick={() => setIsMenuOpen(false)}>{t('contact')}</Link>
                             <button onClick={() => { toggleLanguage(); setIsMenuOpen(false); }} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex items-center gap-2">
                                 <Globe size={18} /> {i18n.language.toUpperCase()}
                             </button>
